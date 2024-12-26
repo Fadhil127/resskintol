@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Kirim RESS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .form-container {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ff00ff;
+            border-radius: 5px;
+            background: #333;
+            color: #fff;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: #ff00ff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #e600e6;
+        }
+            .batas {
+            border: 2px solid black; /* Batas dengan ketebalan 2px, warna hitam */
+            padding: 20px; /* Memberi ruang di dalam elemen */
+        }
+            .batas {
+            border: 2px solid black; /* Batas dengan ketebalan 2px, warna hitam */
+            padding: 20px; /* Memberi ruang di dalam elemen */
+        }
+    </style>
+</head>
+<body>
+    <h1>RESS DHILZ XD</h1>
+    <p>MASUKKAN TARGET RESS:</p>
+
+    <div class="form-container">
+        <form action="send.php" method="GET">
+            <label for="email">Email Tujuan:</label>
+            <input type="text" id="email" name="email" placeholder="Masukkan email" required>
+            
+            <label for="total">Jumlah Ress:</label>
+            <input type="number" id="total" name="total" placeholder="Masukkan jumlah" required min="1">
+
+            <button type="submit">Send RESS</button>
+        </form>
+    </div>
+    <div class="batas">
+        <audio src="https://github.com/Fadhil127/jasteb/raw/refs/heads/main/ud.mp3" autoplay loop controls></audio>
+    </div>
+</body>
+</html>
